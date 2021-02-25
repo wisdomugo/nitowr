@@ -1,0 +1,66 @@
+a,p,li{
+	font-family: candara;
+	font-size: 16px;
+}
+#sfirst{
+	background-image: url("../images/nwk4.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: red;
+	min-height: 800px;
+}
+#sfirst .row{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.logo img{
+	width: 70%;
+}
+.topicons .fa, .topicons a{
+	color: gray;
+	font-size: 14px;
+}
+.phone .fa, .phone a{
+	color: #ffffff;
+	font-size: 17px;
+}
+.topicons a{margin-right: 15px;}
+.fa{margin-right: 5px !important;}
+
+
+.rfloat{
+	float: right;
+}
+.mnav li{
+	display: inline-flex;
+	margin-right: 15px;
+}
+.mnav a{
+	color: #ffffff;
+	font-family: candara;
+	font-size: 20px;
+}
+.mnav a:active{
+	color: orange;
+}
+
+
+/* carousel stylings*/
+.carousel{
+	position: relative;
+	top: 100px;
+}
+.carousel .item h1{
+	font-family: 'RocknRoll One';
+	font-size: 44px;
+	color: #ffffff;
+}
+
+.carousel .item h1, .carousel .item p{
+	text-align: center;
+}
+.carousel .item p{
+	color: #ffffff;
+	font-size: 20px;
+}
